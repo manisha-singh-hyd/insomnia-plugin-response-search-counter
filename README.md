@@ -53,6 +53,14 @@ mklink /D "%APPDATA%\Insomnia\plugins\insomnia-plugin-response-search-counter" "
 3. The count of matches will appear next to the search box
 4. When switching between tabs, the counter automatically updates for the current response
 
+### Search Results Display
+
+When searching in the response viewer, the match count is displayed in a clear format:
+
+![Search Results Counter](https://raw.githubusercontent.com/manisha-singh-hyd/insomnia-plugin-response-search-counter/main/docs/search-counter.png)
+
+As shown in the screenshot above, the plugin displays the total number of matches (110 matches) for the search term "displayName". The count updates in real-time as you type, making it easy to see how many occurrences of your search term exist in the response.
+
 ## How It Works
 
 - Maintains a single cached response that updates when:
