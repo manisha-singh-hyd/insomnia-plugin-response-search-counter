@@ -124,6 +124,10 @@ npm publish
 
 The plugin will be available in the Insomnia Plugin Hub after publication.
 
+## Support ❤️
+
+[paypal.me/manishasinghhyd](https://paypal.me/manishasinghhyd)
+
 ## License
 
 MIT
