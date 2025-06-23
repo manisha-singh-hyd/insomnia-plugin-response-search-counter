@@ -10,7 +10,8 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --config webpack.config.js --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "react": "17.0.2",
@@ -29,6 +30,20 @@
     "search",
     "counter"
   ],
-  "author": "",
-  "description": "An Insomnia plugin that shows the count of search term matches in the response viewer"
+  "author": "Manisha <manisha.singh.hyd@gmail.com>",
+  "description": "An Insomnia plugin that shows the count of search term matches in the response viewer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manisha-singh-hyd/insomnia-plugin-response-search-counter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manisha-singh-hyd/insomnia-plugin-response-search-counter/issues"
+  },
+  "homepage": "https://github.com/manisha-singh-hyd/insomnia-plugin-response-search-counter#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
