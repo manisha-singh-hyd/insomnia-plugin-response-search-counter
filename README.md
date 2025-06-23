@@ -12,11 +12,24 @@ A plugin for Insomnia that shows the count of search term matches in the respons
 
 ## Installation
 
+### From Insomnia Plugin Hub
+
+1. Open Insomnia
+2. Go to Application > Preferences > Plugins
+3. Type "insomnia-plugin-response-search-counter"
+4. Click "Install Plugin"
+
+### Using npm
+
+```bash
+npm install -g insomnia-plugin-response-search-counter
+```
+
 ### Local Development
 
 1. Clone this repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/manisha-singh-hyd/insomnia-plugin-response-search-counter.git
 cd insomnia-plugin-response-search-counter
 ```
 
@@ -93,6 +106,23 @@ To test the plugin:
    - Run `npm run build`
    - Restart Insomnia
    - Test your changes
+
+## Publishing
+
+To publish a new version to npm:
+
+1. Update version in package.json
+2. Build the plugin:
+```bash
+npm run build
+```
+
+3. Publish to npm:
+```bash
+npm publish
+```
+
+The plugin will be available in the Insomnia Plugin Hub after publication.
 
 ## License
 
